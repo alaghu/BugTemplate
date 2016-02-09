@@ -12,4 +12,7 @@ class Rpthead < ActiveRecord::Base
   # mapping to BigDecimal. Eg rptno 20129254 was shown as 20129254.0
   set_integer_columns :rptno, :status, :cs_priority, :base_rptno
 
+
+
+
 end
