@@ -61,7 +61,7 @@ default: &default
 
 test:
   adapter: oracle_enhanced
-  database: "(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = adc01knk.us.oracle.com)(PORT = 1521))) (CONNECT_DATA = (SID = gemdb))"
+  database: //adc01knk.us.oracle.com:1521/gemdb.us.oracle.com
   username: system
   password: manager
 
