@@ -1,8 +1,8 @@
 class BugController < ApplicationController
   def index
-    @bugs= Rpthead.find_by rptno: 20129254
+    @bugs= Rpthead.find_by rptno: '20129254'
 
-
+    @anand = Rpthead.where(product_id: '4332').last(100)
     ## Very bad performance
 
     # From active Record
